@@ -1,0 +1,813 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ICareer\\JobApplication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9E5C0743-54A1-4942-95B2-785F63765722}|..\\JobApplication.Infrastructure\\JobApplication.Infrastructure.csproj|d:\\icareer\\jobapplication.infrastructure\\repositories\\applicationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E5C0743-54A1-4942-95B2-785F63765722}|..\\JobApplication.Infrastructure\\JobApplication.Infrastructure.csproj|d:\\icareer\\jobapplication.infrastructure\\repositories\\candidaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E5C0743-54A1-4942-95B2-785F63765722}|..\\JobApplication.Infrastructure\\JobApplication.Infrastructure.csproj|d:\\icareer\\jobapplication.infrastructure\\repositories\\jobrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E5C0743-54A1-4942-95B2-785F63765722}|..\\JobApplication.Infrastructure\\JobApplication.Infrastructure.csproj|d:\\icareer\\jobapplication.infrastructure\\persistence\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E5C0743-54A1-4942-95B2-785F63765722}|..\\JobApplication.Infrastructure\\JobApplication.Infrastructure.csproj|d:\\icareer\\jobapplication.infrastructure\\identity\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E5C0743-54A1-4942-95B2-785F63765722}|..\\JobApplication.Infrastructure\\JobApplication.Infrastructure.csproj|d:\\icareer\\jobapplication.infrastructure\\infradi\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E5C0743-54A1-4942-95B2-785F63765722}|..\\JobApplication.Infrastructure\\JobApplication.Infrastructure.csproj|d:\\icareer\\jobapplication.infrastructure\\identity\\identityseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E5C0743-54A1-4942-95B2-785F63765722}|..\\JobApplication.Infrastructure\\JobApplication.Infrastructure.csproj|d:\\icareer\\jobapplication.infrastructure\\identity\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E5C0743-54A1-4942-95B2-785F63765722}|..\\JobApplication.Infrastructure\\JobApplication.Infrastructure.csproj|d:\\icareer\\jobapplication.infrastructure\\identity\\applicationroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E5C0743-54A1-4942-95B2-785F63765722}|..\\JobApplication.Infrastructure\\JobApplication.Infrastructure.csproj|d:\\icareer\\jobapplication.infrastructure\\identity\\adminseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E5C0743-54A1-4942-95B2-785F63765722}|..\\JobApplication.Infrastructure\\JobApplication.Infrastructure.csproj|d:\\icareer\\jobapplication.infrastructure\\identity\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E5C0743-54A1-4942-95B2-785F63765722}|..\\JobApplication.Infrastructure\\JobApplication.Infrastructure.csproj|d:\\icareer\\jobapplication.infrastructure\\identity\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E5C0743-54A1-4942-95B2-785F63765722}|..\\JobApplication.Infrastructure\\JobApplication.Infrastructure.csproj|d:\\icareer\\jobapplication.infrastructure\\configuration\\candidateconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39FC20B0-31AD-4C3E-9874-D98DC3F8D5E4}|..\\JobApplication.Domain\\JobApplication.Domain.csproj|d:\\icareer\\jobapplication.domain\\enums\\jobapplicationstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39FC20B0-31AD-4C3E-9874-D98DC3F8D5E4}|..\\JobApplication.Domain\\JobApplication.Domain.csproj|d:\\icareer\\jobapplication.domain\\entities\\jobcandidateapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34D0DE7C-1718-4B29-AA65-6BEAFE13C4A3}|..\\JobApplication.Applicationn\\JobApplication.Application.csproj|d:\\icareer\\jobapplication.applicationn\\services\\applicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34D0DE7C-1718-4B29-AA65-6BEAFE13C4A3}|..\\JobApplication.Applicationn\\JobApplication.Application.csproj|d:\\icareer\\jobapplication.applicationn\\services\\jobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34D0DE7C-1718-4B29-AA65-6BEAFE13C4A3}|..\\JobApplication.Applicationn\\JobApplication.Application.csproj|d:\\icareer\\jobapplication.applicationn\\interfaces\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34D0DE7C-1718-4B29-AA65-6BEAFE13C4A3}|..\\JobApplication.Applicationn\\JobApplication.Application.csproj|d:\\icareer\\jobapplication.applicationn\\interfaces\\ijobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34D0DE7C-1718-4B29-AA65-6BEAFE13C4A3}|..\\JobApplication.Applicationn\\JobApplication.Application.csproj|d:\\icareer\\jobapplication.applicationn\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34D0DE7C-1718-4B29-AA65-6BEAFE13C4A3}|..\\JobApplication.Applicationn\\JobApplication.Application.csproj|d:\\icareer\\jobapplication.applicationn\\interfaces\\iapplicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34D0DE7C-1718-4B29-AA65-6BEAFE13C4A3}|..\\JobApplication.Applicationn\\JobApplication.Application.csproj|d:\\icareer\\jobapplication.applicationn\\interfaces\\iadminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34D0DE7C-1718-4B29-AA65-6BEAFE13C4A3}|..\\JobApplication.Applicationn\\JobApplication.Application.csproj|d:\\icareer\\jobapplication.applicationn\\interfaces\\repositories\\ijobrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34D0DE7C-1718-4B29-AA65-6BEAFE13C4A3}|..\\JobApplication.Applicationn\\JobApplication.Application.csproj|d:\\icareer\\jobapplication.applicationn\\interfaces\\repositories\\icandidaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34D0DE7C-1718-4B29-AA65-6BEAFE13C4A3}|..\\JobApplication.Applicationn\\JobApplication.Application.csproj|d:\\icareer\\jobapplication.applicationn\\interfaces\\repositories\\iapplicationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39FC20B0-31AD-4C3E-9874-D98DC3F8D5E4}|..\\JobApplication.Domain\\JobApplication.Domain.csproj|d:\\icareer\\jobapplication.domain\\entities\\job.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34D0DE7C-1718-4B29-AA65-6BEAFE13C4A3}|..\\JobApplication.Applicationn\\JobApplication.Application.csproj|d:\\icareer\\jobapplication.applicationn\\dtos\\job\\createjobrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34D0DE7C-1718-4B29-AA65-6BEAFE13C4A3}|..\\JobApplication.Applicationn\\JobApplication.Application.csproj|d:\\icareer\\jobapplication.applicationn\\dtos\\auth\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34D0DE7C-1718-4B29-AA65-6BEAFE13C4A3}|..\\JobApplication.Applicationn\\JobApplication.Application.csproj|d:\\icareer\\jobapplication.applicationn\\dtos\\auth\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34D0DE7C-1718-4B29-AA65-6BEAFE13C4A3}|..\\JobApplication.Applicationn\\JobApplication.Application.csproj|d:\\icareer\\jobapplication.applicationn\\dtos\\auth\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34D0DE7C-1718-4B29-AA65-6BEAFE13C4A3}|..\\JobApplication.Applicationn\\JobApplication.Application.csproj|d:\\icareer\\jobapplication.applicationn\\dtos\\application\\applyjobrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34D0DE7C-1718-4B29-AA65-6BEAFE13C4A3}|..\\JobApplication.Applicationn\\JobApplication.Application.csproj|d:\\icareer\\jobapplication.applicationn\\dtos\\admin\\createrecruiterrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34D0DE7C-1718-4B29-AA65-6BEAFE13C4A3}|..\\JobApplication.Applicationn\\JobApplication.Application.csproj|d:\\icareer\\jobapplication.applicationn\\appdi\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{277DD9D3-F2C2-443C-AF75-F819D8BF85C8}|JobApplication.API.csproj|d:\\icareer\\jobapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{277DD9D3-F2C2-443C-AF75-F819D8BF85C8}|JobApplication.API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{277DD9D3-F2C2-443C-AF75-F819D8BF85C8}|JobApplication.API.csproj|d:\\icareer\\jobapplication\\controllers\\jobscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{277DD9D3-F2C2-443C-AF75-F819D8BF85C8}|JobApplication.API.csproj|solutionrelative:controllers\\jobscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{277DD9D3-F2C2-443C-AF75-F819D8BF85C8}|JobApplication.API.csproj|d:\\icareer\\jobapplication\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{277DD9D3-F2C2-443C-AF75-F819D8BF85C8}|JobApplication.API.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{277DD9D3-F2C2-443C-AF75-F819D8BF85C8}|JobApplication.API.csproj|d:\\icareer\\jobapplication\\controllers\\applicationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{277DD9D3-F2C2-443C-AF75-F819D8BF85C8}|JobApplication.API.csproj|solutionrelative:controllers\\applicationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{277DD9D3-F2C2-443C-AF75-F819D8BF85C8}|JobApplication.API.csproj|d:\\icareer\\jobapplication\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{277DD9D3-F2C2-443C-AF75-F819D8BF85C8}|JobApplication.API.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39FC20B0-31AD-4C3E-9874-D98DC3F8D5E4}|..\\JobApplication.Domain\\JobApplication.Domain.csproj|d:\\icareer\\jobapplication.domain\\entities\\candidate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{277DD9D3-F2C2-443C-AF75-F819D8BF85C8}|JobApplication.API.csproj|d:\\icareer\\jobapplication\\jobapplication.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{277DD9D3-F2C2-443C-AF75-F819D8BF85C8}|JobApplication.API.csproj|solutionrelative:jobapplication.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34D0DE7C-1718-4B29-AA65-6BEAFE13C4A3}|..\\JobApplication.Applicationn\\JobApplication.Application.csproj|d:\\icareer\\jobapplication.applicationn\\jobapplication.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{277DD9D3-F2C2-443C-AF75-F819D8BF85C8}|JobApplication.API.csproj|d:\\icareer\\jobapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{277DD9D3-F2C2-443C-AF75-F819D8BF85C8}|JobApplication.API.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E5C0743-54A1-4942-95B2-785F63765722}|..\\JobApplication.Infrastructure\\JobApplication.Infrastructure.csproj|d:\\icareer\\jobapplication.infrastructure\\jobapplication.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E5C0743-54A1-4942-95B2-785F63765722}|..\\JobApplication.Infrastructure\\JobApplication.Infrastructure.csproj|d:\\icareer\\jobapplication.infrastructure\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E5C0743-54A1-4942-95B2-785F63765722}|..\\JobApplication.Infrastructure\\JobApplication.Infrastructure.csproj|d:\\icareer\\jobapplication.infrastructure\\migrations\\20260919191713_firstcreation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E5C0743-54A1-4942-95B2-785F63765722}|..\\JobApplication.Infrastructure\\JobApplication.Infrastructure.csproj|d:\\icareer\\jobapplication.infrastructure\\migrations\\20260919191713_firstcreation.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E5C0743-54A1-4942-95B2-785F63765722}|..\\JobApplication.Infrastructure\\JobApplication.Infrastructure.csproj|d:\\icareer\\jobapplication.infrastructure\\configuration\\jobcandidateapplicationconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E5C0743-54A1-4942-95B2-785F63765722}|..\\JobApplication.Infrastructure\\JobApplication.Infrastructure.csproj|d:\\icareer\\jobapplication.infrastructure\\configuration\\jobconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E5C0743-54A1-4942-95B2-785F63765722}|..\\JobApplication.Infrastructure\\JobApplication.Infrastructure.csproj|d:\\icareer\\jobapplication.infrastructure\\migrations\\20260919232502_first.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 151,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ApplicationController.cs",
+              "DocumentMoniker": "D:\\ICareer\\JobApplication\\Controllers\\ApplicationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ApplicationController.cs",
+              "ToolTip": "D:\\ICareer\\JobApplication\\Controllers\\ApplicationController.cs",
+              "RelativeToolTip": "Controllers\\ApplicationController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCMAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-20T12:13:58.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ApplicationService.cs",
+              "DocumentMoniker": "D:\\ICareer\\JobApplication.Applicationn\\Services\\ApplicationService.cs",
+              "RelativeDocumentMoniker": "..\\JobApplication.Applicationn\\Services\\ApplicationService.cs",
+              "ToolTip": "D:\\ICareer\\JobApplication.Applicationn\\Services\\ApplicationService.cs",
+              "RelativeToolTip": "..\\JobApplication.Applicationn\\Services\\ApplicationService.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAowFIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-20T12:06:57.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IApplicationService.cs",
+              "DocumentMoniker": "D:\\ICareer\\JobApplication.Applicationn\\Interfaces\\IApplicationService.cs",
+              "RelativeDocumentMoniker": "..\\JobApplication.Applicationn\\Interfaces\\IApplicationService.cs",
+              "ToolTip": "D:\\ICareer\\JobApplication.Applicationn\\Interfaces\\IApplicationService.cs",
+              "RelativeToolTip": "..\\JobApplication.Applicationn\\Interfaces\\IApplicationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-20T12:05:04.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApplicationRepository.cs",
+              "DocumentMoniker": "D:\\ICareer\\JobApplication.Infrastructure\\Repositories\\ApplicationRepository.cs",
+              "RelativeDocumentMoniker": "..\\JobApplication.Infrastructure\\Repositories\\ApplicationRepository.cs",
+              "ToolTip": "D:\\ICareer\\JobApplication.Infrastructure\\Repositories\\ApplicationRepository.cs",
+              "RelativeToolTip": "..\\JobApplication.Infrastructure\\Repositories\\ApplicationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-20T12:03:34.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IApplicationRepository.cs",
+              "DocumentMoniker": "D:\\ICareer\\JobApplication.Applicationn\\Interfaces\\Repositories\\IApplicationRepository.cs",
+              "RelativeDocumentMoniker": "..\\JobApplication.Applicationn\\Interfaces\\Repositories\\IApplicationRepository.cs",
+              "ToolTip": "D:\\ICareer\\JobApplication.Applicationn\\Interfaces\\Repositories\\IApplicationRepository.cs",
+              "RelativeToolTip": "..\\JobApplication.Applicationn\\Interfaces\\Repositories\\IApplicationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-20T12:02:48.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ApplyJobRequest.cs",
+              "DocumentMoniker": "D:\\ICareer\\JobApplication.Applicationn\\DTOs\\Application\\ApplyJobRequest.cs",
+              "RelativeDocumentMoniker": "..\\JobApplication.Applicationn\\DTOs\\Application\\ApplyJobRequest.cs",
+              "ToolTip": "D:\\ICareer\\JobApplication.Applicationn\\DTOs\\Application\\ApplyJobRequest.cs",
+              "RelativeToolTip": "..\\JobApplication.Applicationn\\DTOs\\Application\\ApplyJobRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-20T12:01:43.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "JobsController.cs",
+              "DocumentMoniker": "D:\\ICareer\\JobApplication\\Controllers\\JobsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\JobsController.cs",
+              "ToolTip": "D:\\ICareer\\JobApplication\\Controllers\\JobsController.cs",
+              "RelativeToolTip": "Controllers\\JobsController.cs",
+              "ViewState": "AgIAAA4AAABgZmZmZmY4wCEAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-20T11:42:07.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "JobService.cs",
+              "DocumentMoniker": "D:\\ICareer\\JobApplication.Applicationn\\Services\\JobService.cs",
+              "RelativeDocumentMoniker": "..\\JobApplication.Applicationn\\Services\\JobService.cs",
+              "ToolTip": "D:\\ICareer\\JobApplication.Applicationn\\Services\\JobService.cs",
+              "RelativeToolTip": "..\\JobApplication.Applicationn\\Services\\JobService.cs",
+              "ViewState": "AgIAAA8AAAAAZ2ZmZmYSwCMAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-20T11:35:15.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IJobService.cs",
+              "DocumentMoniker": "D:\\ICareer\\JobApplication.Applicationn\\Interfaces\\IJobService.cs",
+              "RelativeDocumentMoniker": "..\\JobApplication.Applicationn\\Interfaces\\IJobService.cs",
+              "ToolTip": "D:\\ICareer\\JobApplication.Applicationn\\Interfaces\\IJobService.cs",
+              "RelativeToolTip": "..\\JobApplication.Applicationn\\Interfaces\\IJobService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-20T11:31:59.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CreateJobRequest.cs",
+              "DocumentMoniker": "D:\\ICareer\\JobApplication.Applicationn\\DTOs\\Job\\CreateJobRequest.cs",
+              "RelativeDocumentMoniker": "..\\JobApplication.Applicationn\\DTOs\\Job\\CreateJobRequest.cs",
+              "ToolTip": "D:\\ICareer\\JobApplication.Applicationn\\DTOs\\Job\\CreateJobRequest.cs",
+              "RelativeToolTip": "..\\JobApplication.Applicationn\\DTOs\\Job\\CreateJobRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-20T11:30:47.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "JobRepository.cs",
+              "DocumentMoniker": "D:\\ICareer\\JobApplication.Infrastructure\\Repositories\\JobRepository.cs",
+              "RelativeDocumentMoniker": "..\\JobApplication.Infrastructure\\Repositories\\JobRepository.cs",
+              "ToolTip": "D:\\ICareer\\JobApplication.Infrastructure\\Repositories\\JobRepository.cs",
+              "RelativeToolTip": "..\\JobApplication.Infrastructure\\Repositories\\JobRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-20T11:28:25.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IJobRepository.cs",
+              "DocumentMoniker": "D:\\ICareer\\JobApplication.Applicationn\\Interfaces\\Repositories\\IJobRepository.cs",
+              "RelativeDocumentMoniker": "..\\JobApplication.Applicationn\\Interfaces\\Repositories\\IJobRepository.cs",
+              "ToolTip": "D:\\ICareer\\JobApplication.Applicationn\\Interfaces\\Repositories\\IJobRepository.cs",
+              "RelativeToolTip": "..\\JobApplication.Applicationn\\Interfaces\\Repositories\\IJobRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-20T11:26:12.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\ICareer\\JobApplication\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "D:\\ICareer\\JobApplication\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-20T11:13:05.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AdminService.cs",
+              "DocumentMoniker": "D:\\ICareer\\JobApplication.Infrastructure\\Identity\\Services\\AdminService.cs",
+              "RelativeDocumentMoniker": "..\\JobApplication.Infrastructure\\Identity\\Services\\AdminService.cs",
+              "ToolTip": "D:\\ICareer\\JobApplication.Infrastructure\\Identity\\Services\\AdminService.cs",
+              "RelativeToolTip": "..\\JobApplication.Infrastructure\\Identity\\Services\\AdminService.cs",
+              "ViewState": "AgIAAAwAAACAZmZmZmYSwCUAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-20T11:08:34.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IAdminService.cs",
+              "DocumentMoniker": "D:\\ICareer\\JobApplication.Applicationn\\Interfaces\\IAdminService.cs",
+              "RelativeDocumentMoniker": "..\\JobApplication.Applicationn\\Interfaces\\IAdminService.cs",
+              "ToolTip": "D:\\ICareer\\JobApplication.Applicationn\\Interfaces\\IAdminService.cs",
+              "RelativeToolTip": "..\\JobApplication.Applicationn\\Interfaces\\IAdminService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-20T11:04:46.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CreateRecruiterRequest.cs",
+              "DocumentMoniker": "D:\\ICareer\\JobApplication.Applicationn\\DTOs\\Admin\\CreateRecruiterRequest.cs",
+              "RelativeDocumentMoniker": "..\\JobApplication.Applicationn\\DTOs\\Admin\\CreateRecruiterRequest.cs",
+              "ToolTip": "D:\\ICareer\\JobApplication.Applicationn\\DTOs\\Admin\\CreateRecruiterRequest.cs",
+              "RelativeToolTip": "..\\JobApplication.Applicationn\\DTOs\\Admin\\CreateRecruiterRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-20T11:03:57.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "JobApplication.API.csproj",
+              "DocumentMoniker": "D:\\ICareer\\JobApplication\\JobApplication.API.csproj",
+              "RelativeDocumentMoniker": "JobApplication.API.csproj",
+              "ToolTip": "D:\\ICareer\\JobApplication\\JobApplication.API.csproj",
+              "RelativeToolTip": "JobApplication.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-19T23:48:46.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\ICareer\\JobApplication.Applicationn\\AppDI\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "..\\JobApplication.Applicationn\\AppDI\\DependencyInjection.cs",
+              "ToolTip": "D:\\ICareer\\JobApplication.Applicationn\\AppDI\\DependencyInjection.cs",
+              "RelativeToolTip": "..\\JobApplication.Applicationn\\AppDI\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T23:36:28.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AdminSeeder.cs",
+              "DocumentMoniker": "D:\\ICareer\\JobApplication.Infrastructure\\Identity\\AdminSeeder.cs",
+              "RelativeDocumentMoniker": "..\\JobApplication.Infrastructure\\Identity\\AdminSeeder.cs",
+              "ToolTip": "D:\\ICareer\\JobApplication.Infrastructure\\Identity\\AdminSeeder.cs",
+              "RelativeToolTip": "..\\JobApplication.Infrastructure\\Identity\\AdminSeeder.cs",
+              "ViewState": "AgIAAAYAAACgmZmZmZkxwAwAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T23:33:27.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "20260919232502_first.cs",
+              "DocumentMoniker": "D:\\ICareer\\JobApplication.Infrastructure\\Migrations\\20260919232502_first.cs",
+              "RelativeDocumentMoniker": "..\\JobApplication.Infrastructure\\Migrations\\20260919232502_first.cs",
+              "ToolTip": "D:\\ICareer\\JobApplication.Infrastructure\\Migrations\\20260919232502_first.cs",
+              "RelativeToolTip": "..\\JobApplication.Infrastructure\\Migrations\\20260919232502_first.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T23:25:02.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\ICareer\\JobApplication\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "D:\\ICareer\\JobApplication\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T22:52:15.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "JobApplication.Application.csproj",
+              "DocumentMoniker": "D:\\ICareer\\JobApplication.Applicationn\\JobApplication.Application.csproj",
+              "RelativeDocumentMoniker": "..\\JobApplication.Applicationn\\JobApplication.Application.csproj",
+              "ToolTip": "D:\\ICareer\\JobApplication.Applicationn\\JobApplication.Application.csproj",
+              "RelativeToolTip": "..\\JobApplication.Applicationn\\JobApplication.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-19T20:50:45.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "JobApplication.Infrastructure.csproj",
+              "DocumentMoniker": "D:\\ICareer\\JobApplication.Infrastructure\\JobApplication.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "..\\JobApplication.Infrastructure\\JobApplication.Infrastructure.csproj",
+              "ToolTip": "D:\\ICareer\\JobApplication.Infrastructure\\JobApplication.Infrastructure.csproj",
+              "RelativeToolTip": "..\\JobApplication.Infrastructure\\JobApplication.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-19T20:50:07.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "D:\\ICareer\\JobApplication.Infrastructure\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "..\\JobApplication.Infrastructure\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "D:\\ICareer\\JobApplication.Infrastructure\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "..\\JobApplication.Infrastructure\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T20:46:38.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "20260919191713_firstCreation.Designer.cs",
+              "DocumentMoniker": "D:\\ICareer\\JobApplication.Infrastructure\\Migrations\\20260919191713_firstCreation.Designer.cs",
+              "RelativeDocumentMoniker": "..\\JobApplication.Infrastructure\\Migrations\\20260919191713_firstCreation.Designer.cs",
+              "ToolTip": "D:\\ICareer\\JobApplication.Infrastructure\\Migrations\\20260919191713_firstCreation.Designer.cs",
+              "RelativeToolTip": "..\\JobApplication.Infrastructure\\Migrations\\20260919191713_firstCreation.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T20:46:37.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\ICareer\\JobApplication.Infrastructure\\InfraDI\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "..\\JobApplication.Infrastructure\\InfraDI\\DependencyInjection.cs",
+              "ToolTip": "D:\\ICareer\\JobApplication.Infrastructure\\InfraDI\\DependencyInjection.cs",
+              "RelativeToolTip": "..\\JobApplication.Infrastructure\\InfraDI\\DependencyInjection.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAADwv0YAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T20:38:17.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CandidateRepository.cs",
+              "DocumentMoniker": "D:\\ICareer\\JobApplication.Infrastructure\\Repositories\\CandidateRepository.cs",
+              "RelativeDocumentMoniker": "..\\JobApplication.Infrastructure\\Repositories\\CandidateRepository.cs",
+              "ToolTip": "D:\\ICareer\\JobApplication.Infrastructure\\Repositories\\CandidateRepository.cs",
+              "RelativeToolTip": "..\\JobApplication.Infrastructure\\Repositories\\CandidateRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T20:10:02.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ICandidateRepository.cs",
+              "DocumentMoniker": "D:\\ICareer\\JobApplication.Applicationn\\Interfaces\\Repositories\\ICandidateRepository.cs",
+              "RelativeDocumentMoniker": "..\\JobApplication.Applicationn\\Interfaces\\Repositories\\ICandidateRepository.cs",
+              "ToolTip": "D:\\ICareer\\JobApplication.Applicationn\\Interfaces\\Repositories\\ICandidateRepository.cs",
+              "RelativeToolTip": "..\\JobApplication.Applicationn\\Interfaces\\Repositories\\ICandidateRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T20:08:31.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "JwtService.cs",
+              "DocumentMoniker": "D:\\ICareer\\JobApplication.Infrastructure\\Identity\\Services\\JwtService.cs",
+              "RelativeDocumentMoniker": "..\\JobApplication.Infrastructure\\Identity\\Services\\JwtService.cs",
+              "ToolTip": "D:\\ICareer\\JobApplication.Infrastructure\\Identity\\Services\\JwtService.cs",
+              "RelativeToolTip": "..\\JobApplication.Infrastructure\\Identity\\Services\\JwtService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAkwCcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T19:48:04.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IJwtService.cs",
+              "DocumentMoniker": "D:\\ICareer\\JobApplication.Applicationn\\Interfaces\\IJwtService.cs",
+              "RelativeDocumentMoniker": "..\\JobApplication.Applicationn\\Interfaces\\IJwtService.cs",
+              "ToolTip": "D:\\ICareer\\JobApplication.Applicationn\\Interfaces\\IJwtService.cs",
+              "RelativeToolTip": "..\\JobApplication.Applicationn\\Interfaces\\IJwtService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T19:46:37.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\ICareer\\JobApplication.Infrastructure\\Identity\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "..\\JobApplication.Infrastructure\\Identity\\Services\\AuthService.cs",
+              "ToolTip": "D:\\ICareer\\JobApplication.Infrastructure\\Identity\\Services\\AuthService.cs",
+              "RelativeToolTip": "..\\JobApplication.Infrastructure\\Identity\\Services\\AuthService.cs",
+              "ViewState": "AgIAAEAAAAAAzczMzMwUwEsAAABmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T19:44:11.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "D:\\ICareer\\JobApplication.Applicationn\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "..\\JobApplication.Applicationn\\Interfaces\\IAuthService.cs",
+              "ToolTip": "D:\\ICareer\\JobApplication.Applicationn\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "..\\JobApplication.Applicationn\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T19:35:06.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AuthResponse.cs",
+              "DocumentMoniker": "D:\\ICareer\\JobApplication.Applicationn\\DTOs\\Auth\\AuthResponse.cs",
+              "RelativeDocumentMoniker": "..\\JobApplication.Applicationn\\DTOs\\Auth\\AuthResponse.cs",
+              "ToolTip": "D:\\ICareer\\JobApplication.Applicationn\\DTOs\\Auth\\AuthResponse.cs",
+              "RelativeToolTip": "..\\JobApplication.Applicationn\\DTOs\\Auth\\AuthResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T19:29:48.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "D:\\ICareer\\JobApplication.Applicationn\\DTOs\\Auth\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "..\\JobApplication.Applicationn\\DTOs\\Auth\\LoginRequest.cs",
+              "ToolTip": "D:\\ICareer\\JobApplication.Applicationn\\DTOs\\Auth\\LoginRequest.cs",
+              "RelativeToolTip": "..\\JobApplication.Applicationn\\DTOs\\Auth\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T19:28:22.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "RegisterRequest.cs",
+              "DocumentMoniker": "D:\\ICareer\\JobApplication.Applicationn\\DTOs\\Auth\\RegisterRequest.cs",
+              "RelativeDocumentMoniker": "..\\JobApplication.Applicationn\\DTOs\\Auth\\RegisterRequest.cs",
+              "ToolTip": "D:\\ICareer\\JobApplication.Applicationn\\DTOs\\Auth\\RegisterRequest.cs",
+              "RelativeToolTip": "..\\JobApplication.Applicationn\\DTOs\\Auth\\RegisterRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T19:27:30.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "20260919191713_firstCreation.cs",
+              "DocumentMoniker": "D:\\ICareer\\JobApplication.Infrastructure\\Migrations\\20260919191713_firstCreation.cs",
+              "RelativeDocumentMoniker": "..\\JobApplication.Infrastructure\\Migrations\\20260919191713_firstCreation.cs",
+              "ToolTip": "D:\\ICareer\\JobApplication.Infrastructure\\Migrations\\20260919191713_firstCreation.cs",
+              "RelativeToolTip": "..\\JobApplication.Infrastructure\\Migrations\\20260919191713_firstCreation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T19:17:14.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IdentitySeeder.cs",
+              "DocumentMoniker": "D:\\ICareer\\JobApplication.Infrastructure\\Identity\\IdentitySeeder.cs",
+              "RelativeDocumentMoniker": "..\\JobApplication.Infrastructure\\Identity\\IdentitySeeder.cs",
+              "ToolTip": "D:\\ICareer\\JobApplication.Infrastructure\\Identity\\IdentitySeeder.cs",
+              "RelativeToolTip": "..\\JobApplication.Infrastructure\\Identity\\IdentitySeeder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T19:08:08.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ApplicationRoles.cs",
+              "DocumentMoniker": "D:\\ICareer\\JobApplication.Infrastructure\\Identity\\ApplicationRoles.cs",
+              "RelativeDocumentMoniker": "..\\JobApplication.Infrastructure\\Identity\\ApplicationRoles.cs",
+              "ToolTip": "D:\\ICareer\\JobApplication.Infrastructure\\Identity\\ApplicationRoles.cs",
+              "RelativeToolTip": "..\\JobApplication.Infrastructure\\Identity\\ApplicationRoles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T19:07:26.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\ICareer\\JobApplication\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\ICareer\\JobApplication\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-19T18:58:43.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "JobCandidateApplicationConfiguration.cs",
+              "DocumentMoniker": "D:\\ICareer\\JobApplication.Infrastructure\\Configuration\\JobCandidateApplicationConfiguration.cs",
+              "RelativeDocumentMoniker": "..\\JobApplication.Infrastructure\\Configuration\\JobCandidateApplicationConfiguration.cs",
+              "ToolTip": "D:\\ICareer\\JobApplication.Infrastructure\\Configuration\\JobCandidateApplicationConfiguration.cs",
+              "RelativeToolTip": "..\\JobApplication.Infrastructure\\Configuration\\JobCandidateApplicationConfiguration.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAADwvygAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T18:53:00.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CandidateConfiguration.cs",
+              "DocumentMoniker": "D:\\ICareer\\JobApplication.Infrastructure\\Configuration\\CandidateConfiguration.cs",
+              "RelativeDocumentMoniker": "..\\JobApplication.Infrastructure\\Configuration\\CandidateConfiguration.cs",
+              "ToolTip": "D:\\ICareer\\JobApplication.Infrastructure\\Configuration\\CandidateConfiguration.cs",
+              "RelativeToolTip": "..\\JobApplication.Infrastructure\\Configuration\\CandidateConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T18:52:25.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "JobConfiguration.cs",
+              "DocumentMoniker": "D:\\ICareer\\JobApplication.Infrastructure\\Configuration\\JobConfiguration.cs",
+              "RelativeDocumentMoniker": "..\\JobApplication.Infrastructure\\Configuration\\JobConfiguration.cs",
+              "ToolTip": "D:\\ICareer\\JobApplication.Infrastructure\\Configuration\\JobConfiguration.cs",
+              "RelativeToolTip": "..\\JobApplication.Infrastructure\\Configuration\\JobConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T18:52:09.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\ICareer\\JobApplication.Infrastructure\\Persistence\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "..\\JobApplication.Infrastructure\\Persistence\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\ICareer\\JobApplication.Infrastructure\\Persistence\\ApplicationDbContext.cs",
+              "RelativeToolTip": "..\\JobApplication.Infrastructure\\Persistence\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T18:43:34.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "D:\\ICareer\\JobApplication.Infrastructure\\Identity\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "..\\JobApplication.Infrastructure\\Identity\\ApplicationUser.cs",
+              "ToolTip": "D:\\ICareer\\JobApplication.Infrastructure\\Identity\\ApplicationUser.cs",
+              "RelativeToolTip": "..\\JobApplication.Infrastructure\\Identity\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T18:40:19.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "JobApplicationStatus.cs",
+              "DocumentMoniker": "D:\\ICareer\\JobApplication.Domain\\Enums\\JobApplicationStatus.cs",
+              "RelativeDocumentMoniker": "..\\JobApplication.Domain\\Enums\\JobApplicationStatus.cs",
+              "ToolTip": "D:\\ICareer\\JobApplication.Domain\\Enums\\JobApplicationStatus.cs",
+              "RelativeToolTip": "..\\JobApplication.Domain\\Enums\\JobApplicationStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T18:29:12.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "JobCandidateApplication.cs",
+              "DocumentMoniker": "D:\\ICareer\\JobApplication.Domain\\Entities\\JobCandidateApplication.cs",
+              "RelativeDocumentMoniker": "..\\JobApplication.Domain\\Entities\\JobCandidateApplication.cs",
+              "ToolTip": "D:\\ICareer\\JobApplication.Domain\\Entities\\JobCandidateApplication.cs",
+              "RelativeToolTip": "..\\JobApplication.Domain\\Entities\\JobCandidateApplication.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAUwBgAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T18:17:49.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Job.cs",
+              "DocumentMoniker": "D:\\ICareer\\JobApplication.Domain\\Entities\\Job.cs",
+              "RelativeDocumentMoniker": "..\\JobApplication.Domain\\Entities\\Job.cs",
+              "ToolTip": "D:\\ICareer\\JobApplication.Domain\\Entities\\Job.cs",
+              "RelativeToolTip": "..\\JobApplication.Domain\\Entities\\Job.cs",
+              "ViewState": "AgIAAAkAAABgZmZmZmYkwBsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T18:17:18.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Candidate.cs",
+              "DocumentMoniker": "D:\\ICareer\\JobApplication.Domain\\Entities\\Candidate.cs",
+              "RelativeDocumentMoniker": "..\\JobApplication.Domain\\Entities\\Candidate.cs",
+              "ToolTip": "D:\\ICareer\\JobApplication.Domain\\Entities\\Candidate.cs",
+              "RelativeToolTip": "..\\JobApplication.Domain\\Entities\\Candidate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T18:16:59.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ICareer\\JobApplication\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\ICareer\\JobApplication\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAoAAACQMzMzMzMXwCMAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T17:50:37.354Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

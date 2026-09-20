@@ -1,0 +1,11 @@
+D:\ICareer\JobApplication.Domain\bin\Debug\net8.0\JobApplication.Domain.deps.json
+D:\ICareer\JobApplication.Domain\bin\Debug\net8.0\JobApplication.Domain.dll
+D:\ICareer\JobApplication.Domain\bin\Debug\net8.0\JobApplication.Domain.pdb
+D:\ICareer\JobApplication.Domain\obj\Debug\net8.0\JobApplication.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\ICareer\JobApplication.Domain\obj\Debug\net8.0\JobApplication.Domain.AssemblyInfoInputs.cache
+D:\ICareer\JobApplication.Domain\obj\Debug\net8.0\JobApplication.Domain.AssemblyInfo.cs
+D:\ICareer\JobApplication.Domain\obj\Debug\net8.0\JobApplication.Domain.csproj.CoreCompileInputs.cache
+D:\ICareer\JobApplication.Domain\obj\Debug\net8.0\JobApplication.Domain.dll
+D:\ICareer\JobApplication.Domain\obj\Debug\net8.0\refint\JobApplication.Domain.dll
+D:\ICareer\JobApplication.Domain\obj\Debug\net8.0\JobApplication.Domain.pdb
+D:\ICareer\JobApplication.Domain\obj\Debug\net8.0\ref\JobApplication.Domain.dll

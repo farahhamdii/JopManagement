@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "O4R+KC+ivc4=",
+  "success": true,
+  "projectFilePath": "D:\\ICareer\\JobApplication.Applicationn\\JobApplication.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\IT\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.1\\microsoft.extensions.dependencyinjection.abstractions.8.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

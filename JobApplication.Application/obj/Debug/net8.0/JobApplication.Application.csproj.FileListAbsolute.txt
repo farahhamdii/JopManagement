@@ -1,0 +1,15 @@
+D:\ICareer\JobApplication.Applicationn\bin\Debug\net8.0\JobApplication.Application.deps.json
+D:\ICareer\JobApplication.Applicationn\bin\Debug\net8.0\JobApplication.Application.dll
+D:\ICareer\JobApplication.Applicationn\bin\Debug\net8.0\JobApplication.Application.pdb
+D:\ICareer\JobApplication.Applicationn\bin\Debug\net8.0\JobApplication.Domain.dll
+D:\ICareer\JobApplication.Applicationn\bin\Debug\net8.0\JobApplication.Domain.pdb
+D:\ICareer\JobApplication.Applicationn\obj\Debug\net8.0\JobApplication.Application.csproj.AssemblyReference.cache
+D:\ICareer\JobApplication.Applicationn\obj\Debug\net8.0\JobApplication.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\ICareer\JobApplication.Applicationn\obj\Debug\net8.0\JobApplication.Application.AssemblyInfoInputs.cache
+D:\ICareer\JobApplication.Applicationn\obj\Debug\net8.0\JobApplication.Application.AssemblyInfo.cs
+D:\ICareer\JobApplication.Applicationn\obj\Debug\net8.0\JobApplication.Application.csproj.CoreCompileInputs.cache
+D:\ICareer\JobApplication.Applicationn\obj\Debug\net8.0\JobAppli.B01164E4.Up2Date
+D:\ICareer\JobApplication.Applicationn\obj\Debug\net8.0\JobApplication.Application.dll
+D:\ICareer\JobApplication.Applicationn\obj\Debug\net8.0\refint\JobApplication.Application.dll
+D:\ICareer\JobApplication.Applicationn\obj\Debug\net8.0\JobApplication.Application.pdb
+D:\ICareer\JobApplication.Applicationn\obj\Debug\net8.0\ref\JobApplication.Application.dll
