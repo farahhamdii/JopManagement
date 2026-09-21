@@ -16,7 +16,7 @@ namespace JobApplication.API.Controllers
     [Authorize]
     public class ApplicationController : ControllerBase
     {
-        private readonly IMediator _mediator;
+        private readonly IMediator _mediator;  //for update
         public ApplicationController(IMediator mediator)
         {
             _mediator = mediator;
@@ -63,7 +63,7 @@ namespace JobApplication.API.Controllers
         public async Task<ActionResult<JobApplicationResponse>> GetById(int id)
         {
             var query = new GetApplicationByIdQuery(id);
-            var result = await _mediator.Send(query);
+            var result = await _mediator.Send(query); //track
             return Ok(result);
         }
 
