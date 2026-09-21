@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ICareer\\JobApplication.Applicationn\\JobApplication.Application.csproj": {}
+    "D:\\ICareer\\JobApplication\\JobApplication.Application\\JobApplication.Application.csproj": {}
   },
   "projects": {
-    "D:\\ICareer\\JobApplication.Applicationn\\JobApplication.Application.csproj": {
+    "D:\\ICareer\\JobApplication\\JobApplication.Application\\JobApplication.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ICareer\\JobApplication.Applicationn\\JobApplication.Application.csproj",
+        "projectUniqueName": "D:\\ICareer\\JobApplication\\JobApplication.Application\\JobApplication.Application.csproj",
         "projectName": "JobApplication.Application",
-        "projectPath": "D:\\ICareer\\JobApplication.Applicationn\\JobApplication.Application.csproj",
+        "projectPath": "D:\\ICareer\\JobApplication\\JobApplication.Application\\JobApplication.Application.csproj",
         "packagesPath": "C:\\Users\\IT\\.nuget\\packages\\",
-        "outputPath": "D:\\ICareer\\JobApplication.Applicationn\\obj\\",
+        "outputPath": "D:\\ICareer\\JobApplication\\JobApplication.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\ICareer\\JobApplication.Domain\\JobApplication.Domain.csproj": {
-                "projectPath": "D:\\ICareer\\JobApplication.Domain\\JobApplication.Domain.csproj"
+              "D:\\ICareer\\JobApplication\\JobApplication.Domain\\JobApplication.Domain.csproj": {
+                "projectPath": "D:\\ICareer\\JobApplication\\JobApplication.Domain\\JobApplication.Domain.csproj"
               }
             }
           }
@@ -54,6 +54,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[13.1.0, )"
+            },
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
               "version": "[8.0.1, )"
@@ -79,14 +83,14 @@
         }
       }
     },
-    "D:\\ICareer\\JobApplication.Domain\\JobApplication.Domain.csproj": {
+    "D:\\ICareer\\JobApplication\\JobApplication.Domain\\JobApplication.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ICareer\\JobApplication.Domain\\JobApplication.Domain.csproj",
+        "projectUniqueName": "D:\\ICareer\\JobApplication\\JobApplication.Domain\\JobApplication.Domain.csproj",
         "projectName": "JobApplication.Domain",
-        "projectPath": "D:\\ICareer\\JobApplication.Domain\\JobApplication.Domain.csproj",
+        "projectPath": "D:\\ICareer\\JobApplication\\JobApplication.Domain\\JobApplication.Domain.csproj",
         "packagesPath": "C:\\Users\\IT\\.nuget\\packages\\",
-        "outputPath": "D:\\ICareer\\JobApplication.Domain\\obj\\",
+        "outputPath": "D:\\ICareer\\JobApplication\\JobApplication.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

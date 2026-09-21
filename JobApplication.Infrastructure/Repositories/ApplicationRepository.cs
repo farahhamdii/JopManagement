@@ -18,6 +18,11 @@ namespace JobApplication.Infrastructure.Repositories
             await _context.JobCandidateApplications.AddAsync(application);
             await _context.SaveChangesAsync();
         }
+        public async Task<IEnumerable<JobCandidateApplication>> GetAllAsync()
+        {
+            return await _context.JobCandidateApplications
+                .ToListAsync();
+        }
 
         public async Task<JobCandidateApplication?> GetByIdAsync(int id)
         {
@@ -35,6 +40,13 @@ namespace JobApplication.Infrastructure.Repositories
         {
             _context.JobCandidateApplications.Update(application);
             await _context.SaveChangesAsync();
+        }
+
+        public async Task<IEnumerable<JobCandidateApplication>> GetByCandidateIdAsync( int candidateId)
+        {
+            return await _context.JobCandidateApplications
+                .Where(a => a.CandidateId == candidateId)
+                .ToListAsync();
         }
     }
 }

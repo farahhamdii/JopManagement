@@ -29,5 +29,11 @@ namespace JobApplication.Infrastructure.Repositories
             _context.Jobs.Update(job);
             await _context.SaveChangesAsync();
         }
+        public async Task<IEnumerable<Job>> GetAllAsync()
+        {
+            return await _context.Jobs
+                .Where(j => !j.IsDeleted && j.IsActive)
+                .ToListAsync();
+        }
     }
 }

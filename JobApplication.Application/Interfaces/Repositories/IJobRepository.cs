@@ -13,5 +13,6 @@ namespace JobApplication.Application.Interfaces.Repositories
         Task AddAsync(Job job);
         Task<Job?> GetByIdAsync(int id);
         Task UpdateAsync(Job job); //for change deleteStat to true
+        Task<IEnumerable<Job>> GetAllAsync();
     }
 }

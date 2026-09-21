@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ICareer\\JobApplication.Domain\\JobApplication.Domain.csproj": {}
+    "D:\\ICareer\\JobApplication\\JobApplication.Domain\\JobApplication.Domain.csproj": {}
   },
   "projects": {
-    "D:\\ICareer\\JobApplication.Domain\\JobApplication.Domain.csproj": {
+    "D:\\ICareer\\JobApplication\\JobApplication.Domain\\JobApplication.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ICareer\\JobApplication.Domain\\JobApplication.Domain.csproj",
+        "projectUniqueName": "D:\\ICareer\\JobApplication\\JobApplication.Domain\\JobApplication.Domain.csproj",
         "projectName": "JobApplication.Domain",
-        "projectPath": "D:\\ICareer\\JobApplication.Domain\\JobApplication.Domain.csproj",
+        "projectPath": "D:\\ICareer\\JobApplication\\JobApplication.Domain\\JobApplication.Domain.csproj",
         "packagesPath": "C:\\Users\\IT\\.nuget\\packages\\",
-        "outputPath": "D:\\ICareer\\JobApplication.Domain\\obj\\",
+        "outputPath": "D:\\ICareer\\JobApplication\\JobApplication.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
