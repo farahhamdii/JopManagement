@@ -17,7 +17,6 @@ namespace JobApplication.API.Controllers
     public class ApplicationController : ControllerBase
     {
         private readonly IMediator _mediator;
-
         public ApplicationController(IMediator mediator)
         {
             _mediator = mediator;
@@ -28,15 +27,9 @@ namespace JobApplication.API.Controllers
         public async Task<IActionResult> Apply(
             [FromBody] ApplyJobRequest request)
         {
-            var userId =
-                User.FindFirstValue(ClaimTypes.NameIdentifier);
-
-            var command = new ApplyJobCommand(
-                request,
-                userId!);
-
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            var command = new ApplyJobCommand( request, userId!);
             await _mediator.Send(command);
-
             return Ok(new
             {
                 message = "Application submitted successfully."
@@ -47,15 +40,9 @@ namespace JobApplication.API.Controllers
         [Authorize(Roles = "Candidate")]
         public async Task<IActionResult> Cancel(int id)
         {
-            var userId =
-                User.FindFirstValue(ClaimTypes.NameIdentifier);
-
-            var command = new CancelApplicationCommand(
-                id,
-                userId!);
-
+            var userId =  User.FindFirstValue(ClaimTypes.NameIdentifier);
+            var command = new CancelApplicationCommand( id, userId!);
             await _mediator.Send(command);
-
             return Ok(new
             {
                 message = "Application cancelled successfully."
@@ -67,9 +54,7 @@ namespace JobApplication.API.Controllers
         public async Task<ActionResult<IEnumerable<JobApplicationResponse>>> GetAll()
         {
             var query = new GetAllApplicationsQuery();
-
             var result = await _mediator.Send(query);
-
             return Ok(result);
         }
 
@@ -78,9 +63,7 @@ namespace JobApplication.API.Controllers
         public async Task<ActionResult<JobApplicationResponse>> GetById(int id)
         {
             var query = new GetApplicationByIdQuery(id);
-
             var result = await _mediator.Send(query);
-
             return Ok(result);
         }
 
@@ -88,13 +71,9 @@ namespace JobApplication.API.Controllers
         [Authorize(Roles = "Candidate")]
         public async Task<ActionResult<IEnumerable<JobApplicationResponse>>> GetMyApplications()
         {
-            var userId =
-                User.FindFirstValue(ClaimTypes.NameIdentifier);
-
+            var userId =User.FindFirstValue(ClaimTypes.NameIdentifier);
             var query = new GetMyApplicationsQuery(userId!);
-
             var result = await _mediator.Send(query);
-
             return Ok(result);
         }
     }
