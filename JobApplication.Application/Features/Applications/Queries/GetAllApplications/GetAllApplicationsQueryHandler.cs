@@ -1,29 +1,26 @@
 ﻿using JobApplication.Application.DTOs.Application;
+using JobApplication.Application.DTOs.Common;
 using JobApplication.Application.Interfaces.Repositories;
 using MediatR;
 
 namespace JobApplication.Application.Features.Applications.Queries.GetAllApplications
 {
-    public class GetAllApplicationsQueryHandler
-        : IRequestHandler<
-            GetAllApplicationsQuery,
-            IEnumerable<JobApplicationResponse>>
+    public class GetAllApplicationsHandler :
+        IRequestHandler<GetAllApplicationsQuery, PagedResult<JobApplicationResponse>>
     {
         private readonly IApplicationRepository _applicationRepository;
 
-        public GetAllApplicationsQueryHandler( IApplicationRepository applicationRepository)
+        public GetAllApplicationsHandler(
+            IApplicationRepository applicationRepository)
         {
             _applicationRepository = applicationRepository;
         }
 
-        public async Task<IEnumerable<JobApplicationResponse>> Handle(
-            GetAllApplicationsQuery request,
-            CancellationToken cancellationToken)
+        public async Task<PagedResult<JobApplicationResponse>> Handle(GetAllApplicationsQuery request,CancellationToken cancellationToken)
         {
-            var applications =
-                await _applicationRepository.GetAllAsync();
+            var result = await _applicationRepository.GetAllAsync(request.Filter);
 
-            return applications.Select(application =>
+            var applications = result.Applications.Select(application =>
                 new JobApplicationResponse
                 {
                     Id = application.Id,
@@ -35,6 +32,17 @@ namespace JobApplication.Application.Features.Applications.Queries.GetAllApplica
                     StatusUpdatedAt = application.StatusUpdatedAt,
                     CancelledAt = application.CancelledAt
                 });
+
+            var totalPages = (int)Math.Ceiling((double)result.TotalCount / request.Filter.PageSize);
+
+            return new PagedResult<JobApplicationResponse>
+            {
+                Items = applications,
+                PageNumber = request.Filter.PageNumber,
+                PageSize = request.Filter.PageSize,
+                TotalCount = result.TotalCount,
+                TotalPages = totalPages
+            };
         }
     }
 }

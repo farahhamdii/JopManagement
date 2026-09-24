@@ -20,8 +20,7 @@ namespace JobApplication.Infrastructure.Repositories
         }
         public async Task<Candidate?> GetByUserIdAsync(string userId)
         {
-            return await _context.Candidates
-                .FirstOrDefaultAsync(c => c.UserId == userId);
+            return await _context.Candidates.FirstOrDefaultAsync(c => c.UserId == userId);
         }
     }
 }

@@ -7,10 +7,7 @@ namespace JobApplication.Application.Features.Jobs.Commands.CreateJob
     {
         public CreateJobRequest Request { get; set; }
         public string RecruiterId { get; set; }
-
-        public CreateJobCommand(
-            CreateJobRequest request,
-            string recruiterId)
+        public CreateJobCommand(CreateJobRequest request, string recruiterId)
         {
             Request = request;
             RecruiterId = recruiterId;

@@ -4,12 +4,10 @@ using MediatR;
 
 namespace JobApplication.Application.Features.Applications.Queries.GetMyApplications
 {
-    public class GetMyApplicationsQueryHandler
-        : IRequestHandler<GetMyApplicationsQuery, IEnumerable<JobApplicationResponse>>
+    public class GetMyApplicationsQueryHandler: IRequestHandler<GetMyApplicationsQuery, IEnumerable<JobApplicationResponse>>
     {
         private readonly IApplicationRepository _applicationRepository;
         private readonly ICandidateRepository _candidateRepository;
-
         public GetMyApplicationsQueryHandler(
             IApplicationRepository applicationRepository,
             ICandidateRepository candidateRepository)
@@ -18,26 +16,21 @@ namespace JobApplication.Application.Features.Applications.Queries.GetMyApplicat
             _candidateRepository = candidateRepository;
         }
 
-        public async Task<IEnumerable<JobApplicationResponse>> Handle(
-            GetMyApplicationsQuery request,
+        public async Task<IEnumerable<JobApplicationResponse>> Handle(GetMyApplicationsQuery request,
             CancellationToken cancellationToken)
         {
-            var candidate = await _candidateRepository
-                .GetByUserIdAsync(request.UserId);
+            var candidate = await _candidateRepository.GetByUserIdAsync(request.UserId);
 
-            if (candidate == null)
-                throw new Exception("Candidate not found.");
+            if (candidate == null) throw new Exception("Candidate not found.");
 
-            var applications = await _applicationRepository
-                .GetByCandidateIdAsync(candidate.Id);
+            var applications = await _applicationRepository .GetByCandidateIdAsync(candidate.Id);
 
             return applications.Select(application => new JobApplicationResponse
             {
                 Id = application.Id,
                 CandidateId = application.CandidateId,
                 JobId = application.JobId,
-                JobApplicationStatus =
-                    application.JobApplicationStatus.ToString(),
+                JobApplicationStatus = application.JobApplicationStatus.ToString(),
                 AppliedAt = application.AppliedAt,
                 StatusUpdatedAt = application.StatusUpdatedAt,
                 CancelledAt = application.CancelledAt

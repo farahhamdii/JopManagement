@@ -1,6 +1,8 @@
+using Hangfire;
 using JobApplication.Application.AppDI;
-using JobApplication.Infrastructure;
 using JobApplication.Infrastructure.Identity;
+using JobApplication.Infrastructure.InfraDI;
+using JobApplication.Infrastructure.Services.Hangfire;
 using Microsoft.AspNetCore.Identity;
 
 namespace JobApplication.API;
@@ -54,8 +56,13 @@ public class Program
             await IdentitySeeder.SeedRolesAsync(roleManager);
 
             await AdminSeeder.SeedAdminAsync(userManager);
-        }
 
+            var recurringJobManager = scope.ServiceProvider.GetRequiredService<IRecurringJobManager>();
+            recurringJobManager.AddOrUpdate<ApplicationExpirationService>(
+                "auto-reject-expired-applications",
+                service => service.CloseExpiredApplicationsAsync(),
+                Cron.Daily);
+        }
         if (app.Environment.IsDevelopment())
         {
             app.UseSwagger();
@@ -66,9 +73,9 @@ public class Program
 
         app.UseAuthentication();
         app.UseAuthorization();
-
+        app.UseHangfireDashboard("/hangfire");
         app.MapControllers();
-
+ 
         app.Run();
     }
 }

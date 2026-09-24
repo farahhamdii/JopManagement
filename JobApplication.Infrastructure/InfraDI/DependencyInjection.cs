@@ -1,9 +1,12 @@
-﻿using JobApplication.Application.Interfaces;
+﻿using Hangfire;
+using JobApplication.Application.Interfaces;
+using JobApplication.Application.Interfaces.Hangfire;
 using JobApplication.Application.Interfaces.Repositories;
 using JobApplication.Infrastructure.Identity;
 using JobApplication.Infrastructure.Identity.Services;
 using JobApplication.Infrastructure.Persistence;
 using JobApplication.Infrastructure.Repositories;
+using JobApplication.Infrastructure.Services.Hangfire;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -12,7 +15,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 
-namespace JobApplication.Infrastructure
+namespace JobApplication.Infrastructure.InfraDI
 {
     public static class DependencyInjection
     {
@@ -25,6 +28,15 @@ namespace JobApplication.Infrastructure
 
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(connectionString));
+
+            services.AddHangfire(config =>
+                config
+                    .UseSimpleAssemblyNameTypeSerializer()
+                    .UseRecommendedSerializerSettings()
+                    .UseSqlServerStorage(
+                        configuration.GetConnectionString("HangfireConnection")));
+
+            services.AddHangfireServer();
 
             services.AddIdentity<ApplicationUser, IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>()
@@ -45,26 +57,32 @@ namespace JobApplication.Infrastructure
                     {
                         ValidateIssuerSigningKey = true,
 
-                        IssuerSigningKey =new SymmetricSecurityKey(Encoding.UTF8.GetBytes( configuration["Jwt:Key"]!)),
+                        IssuerSigningKey =
+                            new SymmetricSecurityKey(
+                                Encoding.UTF8.GetBytes(
+                                    configuration["Jwt:Key"]!)),
 
                         ValidateIssuer = true,
                         ValidIssuer = configuration["Jwt:Issuer"],
 
                         ValidateAudience = true,
-                        ValidAudience =configuration["Jwt:Audience"],
+                        ValidAudience = configuration["Jwt:Audience"],
+
                         ValidateLifetime = true,
                         ClockSkew = TimeSpan.Zero
                     };
             });
 
             services.AddScoped<ICandidateRepository, CandidateRepository>();
-
             services.AddScoped<IAuthService, AuthService>();
-
             services.AddScoped<IJwtService, JwtService>();
             services.AddScoped<IAdminService, AdminService>();
             services.AddScoped<IJobRepository, JobRepository>();
             services.AddScoped<IApplicationRepository, ApplicationRepository>();
+
+            services.AddScoped<IBackgroundJobScheduler, HangfireBackgroundJobScheduler>();
+            services.AddScoped<INotificationService, EmailNotificationService>();
+            services.AddScoped<ApplicationExpirationService>();
             return services;
         }
     }

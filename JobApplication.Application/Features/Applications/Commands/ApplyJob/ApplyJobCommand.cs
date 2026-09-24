@@ -7,10 +7,7 @@ namespace JobApplication.Application.Features.Applications.Commands.ApplyJob
     {
         public ApplyJobRequest Request { get; set; }
         public string UserId { get; set; }
-
-        public ApplyJobCommand(
-            ApplyJobRequest request,
-            string userId)
+        public ApplyJobCommand( ApplyJobRequest request, string userId)
         {
             Request = request;
             UserId = userId;

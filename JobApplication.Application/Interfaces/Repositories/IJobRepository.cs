@@ -1,10 +1,10 @@
-﻿using System;
+﻿using JobApplication.Application.DTOs.Job;
+using JobApplication.Domain.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
-using JobApplication.Domain.Entities;
 
 namespace JobApplication.Application.Interfaces.Repositories
 {
@@ -13,6 +13,7 @@ namespace JobApplication.Application.Interfaces.Repositories
         Task AddAsync(Job job);
         Task<Job?> GetByIdAsync(int id);
         Task UpdateAsync(Job job); //for change deleteStat to true
-        Task<IEnumerable<Job>> GetAllAsync();
+        Task<(IEnumerable<Job> Jobs, int TotalCount)> GetAllAsync(JobFilterRequest filter);
+        Task<IEnumerable<Job>> GetByRecruiterIdAsync(string recruiterId);
     }
 }

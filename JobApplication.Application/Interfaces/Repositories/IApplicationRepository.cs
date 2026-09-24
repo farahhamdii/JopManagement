@@ -1,4 +1,5 @@
-﻿using JobApplication.Domain.Entities;
+﻿using JobApplication.Application.DTOs.Application;
+using JobApplication.Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +11,7 @@ namespace JobApplication.Application.Interfaces.Repositories
     public interface IApplicationRepository
     {
         Task AddAsync(JobCandidateApplication application);
-        Task<IEnumerable<JobCandidateApplication>> GetAllAsync();
+        Task<(IEnumerable<JobCandidateApplication> Applications, int TotalCount)>GetAllAsync(ApplicationFilterRequest filter);
         Task<JobCandidateApplication?> GetByIdAsync(int id);
         Task<JobCandidateApplication?> GetByCandidateAndJobAsync(int candidateId, int jobId);
         Task UpdateAsync(JobCandidateApplication application);

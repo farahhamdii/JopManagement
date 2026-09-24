@@ -6,10 +6,7 @@ namespace JobApplication.Application.Features.Applications.Commands.CancelApplic
     {
         public int ApplicationId { get; set; }
         public string UserId { get; set; }
-
-        public CancelApplicationCommand(
-            int applicationId,
-            string userId)
+        public CancelApplicationCommand(int applicationId,string userId)
         {
             ApplicationId = applicationId;
             UserId = userId;

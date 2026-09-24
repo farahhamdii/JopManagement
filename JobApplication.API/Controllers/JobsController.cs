@@ -1,8 +1,11 @@
-﻿using JobApplication.Application.DTOs.Job;
+﻿using JobApplication.Application.DTOs.Common;
+using JobApplication.Application.DTOs.Job;
 using JobApplication.Application.Features.Jobs.Commands.CancelJob;
 using JobApplication.Application.Features.Jobs.Commands.CreateJob;
+using JobApplication.Application.Features.Jobs.Commands.UpdateJob;
 using JobApplication.Application.Features.Jobs.Queries.GetAllJobs;
 using JobApplication.Application.Features.Jobs.Queries.GetJobById;
+using JobApplication.Application.Features.Jobs.Queries.GetMyJobs;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -28,13 +31,15 @@ namespace JobApplication.API.Controllers
             var result = await _mediator.Send(query);
             return Ok(result);
         }
-
         [HttpGet]
         [Authorize]
-        public async Task<ActionResult<IEnumerable<JobResponse>>> GetAll()
+        [HttpGet]
+        [Authorize]
+        public async Task<ActionResult<PagedResult<JobResponse>>> GetAll([FromQuery] JobFilterRequest filter)
         {
-            var query = new GetAllJobsQuery();
+            var query = new GetAllJobsQuery(filter);
             var result = await _mediator.Send(query);
+
             return Ok(result);
         }
 
@@ -64,6 +69,31 @@ namespace JobApplication.API.Controllers
             {
                 message = "Job cancelled successfully."
             });
+        }
+
+        [HttpPut("{id}")]
+        [Authorize(Roles = "Recruiter")]
+        public async Task<IActionResult> UpdateJob(int id, [FromBody] UpdateJobRequest request)
+        {
+            var recruiterId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            var command = new UpdateJobCommand(id, request,recruiterId!);
+            await _mediator.Send(command);
+
+            return Ok(new
+            {
+                message = "Job updated successfully."
+            });
+        }
+
+        [HttpGet("my")]
+        [Authorize(Roles = "Recruiter")]
+        public async Task<ActionResult<IEnumerable<JobResponse>>> GetMyJobs()
+        {
+            var recruiterId =User.FindFirstValue(ClaimTypes.NameIdentifier);
+            var query = new GetMyJobsQuery(recruiterId!);
+            var result = await _mediator.Send(query);
+
+            return Ok(result);
         }
     }
 }

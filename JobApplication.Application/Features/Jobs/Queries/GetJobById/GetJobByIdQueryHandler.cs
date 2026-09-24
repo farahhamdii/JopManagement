@@ -18,7 +18,6 @@ namespace JobApplication.Application.Features.Jobs.Queries.GetJobById
             var job = await _jobRepository.GetByIdAsync(request.Id);
             if (job == null)
                 throw new Exception("Job not found.");
-
             return new JobResponse
             {
                 Id = job.Id,

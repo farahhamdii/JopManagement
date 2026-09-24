@@ -13,9 +13,7 @@ namespace JobApplication.Application.Features.Jobs.Commands.CreateJob
             _jobRepository = jobRepository;
         }
 
-        public async Task<int> Handle(
-            CreateJobCommand request,
-            CancellationToken cancellationToken)
+        public async Task<int> Handle(CreateJobCommand request, CancellationToken cancellationToken)
         {
             var job = new Job
             {
@@ -27,7 +25,6 @@ namespace JobApplication.Application.Features.Jobs.Commands.CreateJob
             };
 
             await _jobRepository.AddAsync(job);
-
             return job.Id;
         }
     }
