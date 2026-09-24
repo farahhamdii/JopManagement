@@ -17,8 +17,7 @@ namespace JobApplication.API.Controllers
     [Authorize]
     public class ApplicationController : ControllerBase
     {
-        private readonly IMediator _mediator;
-
+        private readonly IMediator _mediator;  //for update
         public ApplicationController(IMediator mediator)
         {
             _mediator = mediator;
@@ -29,8 +28,13 @@ namespace JobApplication.API.Controllers
         public async Task<IActionResult> Apply(
             [FromBody] ApplyJobRequest request)
         {
+<<<<<<< HEAD
             var userId =User.FindFirstValue(ClaimTypes.NameIdentifier);
             var command = new ApplyJobCommand( request,userId!);
+=======
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            var command = new ApplyJobCommand( request, userId!);
+>>>>>>> 16b04616e9c4bce2f9fcfd5fa4ef8f1135bb4574
             await _mediator.Send(command);
             return Ok(new
             {
@@ -42,8 +46,13 @@ namespace JobApplication.API.Controllers
         [Authorize(Roles = "Candidate")]
         public async Task<IActionResult> Cancel(int id)
         {
+<<<<<<< HEAD
             var userId =User.FindFirstValue(ClaimTypes.NameIdentifier);
             var command = new CancelApplicationCommand(id,userId!);
+=======
+            var userId =  User.FindFirstValue(ClaimTypes.NameIdentifier);
+            var command = new CancelApplicationCommand( id, userId!);
+>>>>>>> 16b04616e9c4bce2f9fcfd5fa4ef8f1135bb4574
             await _mediator.Send(command);
             return Ok(new
             {
@@ -68,7 +77,11 @@ namespace JobApplication.API.Controllers
         public async Task<ActionResult<PagedResult<JobApplicationResponse>>> GetAll(
             [FromQuery] ApplicationFilterRequest filter)
         {
+<<<<<<< HEAD
             var query = new GetAllApplicationsQuery(filter);
+=======
+            var query = new GetAllApplicationsQuery();
+>>>>>>> 16b04616e9c4bce2f9fcfd5fa4ef8f1135bb4574
             var result = await _mediator.Send(query);
             return Ok(result);
         }
@@ -78,7 +91,11 @@ namespace JobApplication.API.Controllers
         public async Task<ActionResult<JobApplicationResponse>> GetById(int id)
         {
             var query = new GetApplicationByIdQuery(id);
+<<<<<<< HEAD
             var result = await _mediator.Send(query);
+=======
+            var result = await _mediator.Send(query); //track
+>>>>>>> 16b04616e9c4bce2f9fcfd5fa4ef8f1135bb4574
             return Ok(result);
         }
 
@@ -86,7 +103,11 @@ namespace JobApplication.API.Controllers
         [Authorize(Roles = "Candidate")]
         public async Task<ActionResult<IEnumerable<JobApplicationResponse>>> GetMyApplications()
         {
+<<<<<<< HEAD
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+=======
+            var userId =User.FindFirstValue(ClaimTypes.NameIdentifier);
+>>>>>>> 16b04616e9c4bce2f9fcfd5fa4ef8f1135bb4574
             var query = new GetMyApplicationsQuery(userId!);
             var result = await _mediator.Send(query);
             return Ok(result);
